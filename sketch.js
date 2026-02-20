@@ -12,17 +12,17 @@ var gameOver, restart, gameOverImage, restartImage;
 function preload() {
   ground_image = loadImage("Background.png");
   girl_running = loadAnimation("/images/run/Run (1).png", "/images/run/Run (2).png", "/images/run/Run (3).png", "/images/run/Run (4).png", "/images/run/Run (5).png", "/images/run/Run (6).png", "/images/run/Run (7).png", "/images/run/Run (8).png", "/images/run/Run (9).png", "/images/run/Run (10).png", "/images/run/Run (11).png", "/images/run/Run (12).png", "/images/run/Run (14).png", "/images/run/Run (15).png", "/images/run/Run (16).png", "/images/run/Run (17).png", "/images/run/Run (18).png", "/images/run/Run (19).png", "/images/run/Run (20).png");
-  zombie_running = loadAnimation("Walk (1).png", "Walk (2).png", "Walk (3).png", "Walk (4).png", "Walk (5).png", "Walk (6).png", "Walk (7).png", "Walk (8).png", "Walk (9).png", "Walk (10).png");
-  zombie_attack = loadAnimation("Attack (2).png", "Attack (3).png", "Attack (4).png", "Attack (5).png", "Attack (6).png", "Attack (7).png", "Attack (8).png");
-  obstacle1 = loadImage("obstacle1.png");
-  zombie_idle = loadImage("Stand.png");
+  zombie_running = loadAnimation("/images/walk/Walk (1).png", "/images/walk/Walk (2).png", "/images/walk/Walk (3).png", "/images/walk/Walk (4).png", "/images/walk/Walk (5).png", "/images/walk/Walk (6).png", "/images/walk/Walk (7).png", "/images/walk/Walk (8).png", "/images/walk/Walk (9).png", "/images/walk/Walk (10).png");
+  zombie_attack = loadAnimation("/images/attack/Attack (2).png", "/images/attack/Attack (3).png", "/images/attack/Attack (4).png", "/images/attack/Attack (5).png", "/images/attack/Attack (6).png", "/images/attack/Attack (7).png", "/images/attack/Attack (8).png");
+  obstacle1 = loadImage("/images/obstacle/obstacle1.png");
+  zombie_idle = loadImage("/images/Stand.png");
   jumpSound = loadSound("jump.mp3")
   dieSound = loadSound("die.mp3")
   checkPointSound = loadSound("checkPoint.mp3")
-  gameOverImage = loadImage("gameOver1.png");
-  restartImage = loadImage("restart1.png");
-  girl_collided = loadImage("Dead (30).png");
-  girlImage = loadImage("Idle (1).png");
+  gameOverImage = loadImage("/images/gameOver1.png");
+  restartImage = loadImage("/images/restart1.png");
+  girl_collided = loadImage("/images/Dead (30).png");
+  girlImage = loadImage("/images/Idle (1).png");
 }
 
 function setup() {
