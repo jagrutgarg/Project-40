@@ -11,7 +11,7 @@ var gameOver, restart, gameOverImage, restartImage;
 
 function preload() {
   ground_image = loadImage("Background.png");
-  girl_running = loadAnimation("Run (1).png", "Run (2).png", "Run (3).png", "Run (4).png", "Run (5).png", "Run (6).png", "Run (7).png", "Run (8).png", "Run (9).png", "Run (10).png", "Run (11).png", "Run (12).png", "Run (14).png", "Run (15).png", "Run (16).png", "Run (17).png", "Run (18).png", "Run (19).png", "Run (20).png");
+  girl_running = loadAnimation("/images/run/Run (1).png", "/images/run/Run (2).png", "/images/run/Run (3).png", "/images/run/Run (4).png", "/images/run/Run (5).png", "/images/run/Run (6).png", "/images/run/Run (7).png", "/images/run/Run (8).png", "/images/run/Run (9).png", "/images/run/Run (10).png", "/images/run/Run (11).png", "/images/run/Run (12).png", "/images/run/Run (14).png", "/images/run/Run (15).png", "/images/run/Run (16).png", "/images/run/Run (17).png", "/images/run/Run (18).png", "/images/run/Run (19).png", "/images/run/Run (20).png");
   zombie_running = loadAnimation("Walk (1).png", "Walk (2).png", "Walk (3).png", "Walk (4).png", "Walk (5).png", "Walk (6).png", "Walk (7).png", "Walk (8).png", "Walk (9).png", "Walk (10).png");
   zombie_attack = loadAnimation("Attack (2).png", "Attack (3).png", "Attack (4).png", "Attack (5).png", "Attack (6).png", "Attack (7).png", "Attack (8).png");
   obstacle1 = loadImage("obstacle1.png");
